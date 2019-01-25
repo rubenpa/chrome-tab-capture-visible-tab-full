@@ -22,6 +22,8 @@
   "devDependencies": {
     "babel-core": "^5.5.6",
     "babel-plugin-espower": "^1.0.0",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
     "babelify": "^6.0.2",
     "browserify": "^10.0.0",
     "david": "^6.1.6",
