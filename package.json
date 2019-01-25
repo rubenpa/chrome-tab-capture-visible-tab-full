@@ -3,16 +3,6 @@
   "description": "Get the full size capture at chrome.tabs.captureVisibleTab.",
   "version": "0.0.8",
   "author": "@kyo-ago",
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "stage": 1
-        }
-      ]
-    ]
-  },
   "dependencies": {
     "bluebird": "^2.9.24"
   },
