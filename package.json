@@ -7,7 +7,7 @@
     "bluebird": "^2.9.24"
   },
   "browserify": {
-    "transform": [["babelify", { "presets": ["es2015", "stage-2"], "plugins": ["@babel/plugin-transform-regenerator"] }]]
+    "transform": [["babelify", { "presets": ["es2015", "stage-2"], "plugins": ["transform-runtime"] }]]
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -15,7 +15,6 @@
     "babel-preset-es2015": "^6.0.0",
     "babel-preset-stage-2": "^6.0.0",
     "babel-plugin-espower": "^1.0.0",
-    "@babel/plugin-transform-regenerator": "latest",
     "babelify": "^6.0.2",
     "david": "^6.1.6",
     "fixpack": "^2.2.0",
